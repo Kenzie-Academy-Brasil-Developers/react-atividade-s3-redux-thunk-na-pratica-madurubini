@@ -1,5 +1,3 @@
-import { ADD_COMMENT } from "./actionTypes";
-
 const initialState = { name: "Madu", comments: [] };
 
 const userReducer = (state = initialState, action) => {
